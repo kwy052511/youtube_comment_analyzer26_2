@@ -3,20 +3,12 @@
 @import "shadcn/tailwind.css";
 
 @theme inline {
-  /* 폰트: Pretendard 기본, Noto Sans KR 보조 */
   --font-sans: "Pretendard", "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
-  
-  /* 60-30-10 컬러 시스템 */
-  /* 주색 (60%): 밝고 차분한 오프화이트/슬레이트 배경 (#f8fafc ~ #ffffff) */
   --color-bg-main: #f8fafc;
   --color-card-bg: #ffffff;
-  
-  /* 보조색 (30%): 카드 경계, 서브 텍스트, 차트 보조 요소, 네이비/그레이 (#0f172a, #334155, #e2e8f0) */
   --color-text-main: #0f172a;
   --color-text-muted: #64748b;
   --color-border-sub: #e2e8f0;
-  
-  /* 강조색 (10%): 로열 인디고 & 액센트 블루 (#4f46e5 / #3b82f6) */
   --color-accent-primary: #4f46e5;
   --color-accent-hover: #4338ca;
   --color-accent-light: #eef2ff;
@@ -36,14 +28,6 @@
 }
 
 /* 1.333 Major Third Typographic Scale */
-/* Base: 16px (1rem) */
-/* text-sm: 12px (0.75rem) */
-/* text-base: 16px (1rem) */
-/* text-h4 (소제목 2): 21.3px (1.333rem) */
-/* text-h3 (소제목 1): 28.4px (1.777rem) */
-/* text-h2 (중제목): 37.9px (2.369rem) */
-/* text-h1 (대제목): 50.5px (3.157rem) */
-
 .typo-h1 {
   font-size: 3.157rem;
   line-height: 1.15;
